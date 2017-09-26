@@ -67,7 +67,7 @@ class ViewController: UIViewController {
                 anno.coordinate.latitude = self.lat!
                 anno.coordinate.longitude = self.long!
                 anno.title = "DIT 동의과학대학교"
-                anno.subtitle = "우리들의 꿈이 자라는 것"
+                anno.subtitle = "우리들의 꿈이 자라는 곳"
                 self.myMapView.addAnnotation(anno)
                 self.myMapView.selectAnnotation(anno, animated: true)
             }
